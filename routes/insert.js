@@ -23,6 +23,7 @@ try {
     const taskCollection = db.collection("Tasks");
 
     const task = {
+        "taskId": 3498,
         "taskName": "Validar aplicación web Node.js",
         "taskUser": "Andoni",
         "taskCompleted": true
